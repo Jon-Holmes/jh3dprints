@@ -22,14 +22,11 @@ li, a, button, body{
     text-decoration: none;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-    
+h1{
+    position: fixed;
+    top: 15px;
+    left: 575px;
 }
-
 
 .showcase {
     background: var(--primary-color);
@@ -57,7 +54,7 @@ header{
     height: 100%;
   }
   
-  .showcase h1 {
+  .showcase h2 {
     font-size: 4rem;
   }
   
@@ -93,8 +90,8 @@ header{
   
   .menu-wrap .toggler {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 5px;
+    left: 5px;
     z-index: 2;
     cursor: pointer;
     width: 50px;
@@ -104,16 +101,18 @@ header{
   
   .menu-wrap .hamburger {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 5px;
+    left: 5px;
     z-index: 1;
     width: 60px;
     height: 60px;
     padding: 1rem;
-    background: var(--primary-color);
+    background: var(--overlay-color);
     display: flex;
     align-items: center;
     justify-content: center;
+    border: none;
+    border-radius: 50px;
   }
   
   /* Hamburger Line */
@@ -225,26 +224,7 @@ header{
     transition: color 0.4s ease;
   }
   
-.logo{
-    cursor: pointer;
-    width: 100px;
-    height: 100px;
-}
 
-.nav__links{
-    list-style: none;
-}
-.nav__links li{
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-.nav__links li a{
-    transition: all 0.3s ease 0s;
-}
-.nav__links li a:hover{
-    color: #0088a9;
-}
 
 button{
     padding: 9px 25px;
