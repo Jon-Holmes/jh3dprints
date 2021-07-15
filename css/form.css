@@ -1,7 +1,7 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600');
 :root {
     --primary-color: #24252A;
-    --overlay-color: rgba(0, 136, 169, 1);;
+    --overlay-color: #0088a9;
     --menu-speed: 0.75s;
   }
 
