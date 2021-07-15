@@ -9,7 +9,7 @@ body{
   font-weight:300;
   font-size: 12px;
   line-height:30px;
-  color:#777;
+  color:#FFFFFF;
   background-color: #24252A;	
 }
 
@@ -45,7 +45,7 @@ nav{
   height:40px;
 	line-height: 43px;
 	display: flex;
-	font-size: 1rem;
+	font-size: .8rem;
 	text-transform: uppercase;
 	font-weight: 500;
 	color:#FFFFFF;
@@ -62,7 +62,7 @@ nav ul li a{
 	margin: 3px;
 	padding: 0px 22px;
 	display: flex;
-	font-size: 1rem;
+	font-size: .8rem;
 	text-transform: uppercase;
 	font-weight: 500;
 	color:#FFFFFF;
@@ -73,7 +73,7 @@ nav ul li a{
   font-family: "Montserrat", sans-serif;
 	color:#FFFFFF;
 	font-weight: 500;
-	font-size: 1rem;
+	font-size: .8rem;
 	
 }
 nav ul li a:hover{
@@ -324,7 +324,7 @@ display:block;}
 		user-select: none;
 	}
 	nav .menu-icon .nav-icon{
-		background-color:#0088a9;
+		background-color:#FFFFFF;
 		display:block;
 		height:2px;
 		position:relative;
@@ -333,7 +333,7 @@ display:block;}
 	}
 	nav .menu-icon .nav-icon:before,
 	nav .menu-icon .nav-icon:after{
-		background:#0088a9;
+		background:#FFFFFF;
 		content:'';
 		display:block;
 		height:100%;
@@ -431,4 +431,13 @@ display:block;}
 	#skills{
 		margin:0px;
 	}
+}
+
+h1{
+  font-family:"Open Sans", Helvetica, Arial, sans-serif;
+  font-weight:300;
+  font-size: 24px;
+  line-height:50px;
+  text-align: center;
+  position: relative;
 }
