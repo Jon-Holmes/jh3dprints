@@ -457,9 +457,9 @@ h1{
 	font-family:"Open Sans", Helvetica, Arial, sans-serif;
 	font-weight:300;
 	line-height:50px;
-	text-align: left;
-	position: relative;
-	left: 200px;
+	text-align: justify;
+	position: absolute;
+	left: 100px;
   }
   
   @media screen and (min-width: 601px) {
@@ -477,9 +477,11 @@ h1{
 p{
   font-family:"Open Sans", Helvetica, Arial, sans-serif;
   font-weight:300;
-  line-height:50px;
-  text-align: center;
-  position: relative;
+  line-height:30px;
+  text-align: left;
+  position: absolute;
+  left: 100px;
+  
 }
 
 @media screen and (min-width: 601px) {
