@@ -459,18 +459,19 @@ h1{
 	line-height:50px;
 	text-align: justify;
 	position: absolute;
-	left: 100px;
   }
   
   @media screen and (min-width: 601px) {
 	  h2 {
 		font-size: 40px;
+        left: 100px;
 	  }
 	}
 	
 	@media screen and (max-width: 600px) {
 	  h2 {
 		font-size: 20px;
+        left: 20px;
 	  }
 	}
 
@@ -480,19 +481,22 @@ p{
   line-height:30px;
   text-align: left;
   position: absolute;
-  left: 100px;
+  
   
 }
 
 @media screen and (min-width: 601px) {
 	p {
 	  font-size: 20px;
+      left: 100px;
+      
 	}
   }
   
   @media screen and (max-width: 600px) {
 	p {
 	  font-size: 12px;
+      left: 20px;
 	}
   }
 
