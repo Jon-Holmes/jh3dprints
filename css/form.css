@@ -10,7 +10,7 @@ body{
 	font-size: 12px;
 	line-height:30px;
 	color:#777;
-	background-color: #24252A;	
+	background-color: #0e181a;	
 }
 
 *{
@@ -38,7 +38,7 @@ nav{
 	top: 0;
 	width:100%;
 	z-index: 1;
-	background-color: #0088a9;
+	background-color: #0e181a;
 }
 .logo{
   font-family: "Montserrat", sans-serif;
@@ -124,7 +124,7 @@ display:block;}
 		position:absolute;
 		top:65px;
 		left:0px;
-		background-color:#FFFFFF;
+		background-color:#0e181a;
 		border-bottom:4px solid #0088a9;
 		width:100%;
 		padding:0px;
@@ -140,7 +140,7 @@ display:block;}
 		align-items: center;
 		margin:0px;
 		padding: 25px;
-		border:1px solid #0088a9;
+		border:1px solid #0e181a;
 	}
 	nav .menu-icon{
 		cursor:pointer;
@@ -150,7 +150,7 @@ display:block;}
 		user-select: none;
 	}
 	nav .menu-icon .nav-icon{
-		background-color:#24252A;
+		background-color:#FFFFFF;
 		display:block;
 		height:2px;
 		position:relative;
@@ -159,7 +159,7 @@ display:block;}
 	}
 	nav .menu-icon .nav-icon:before,
 	nav .menu-icon .nav-icon:after{
-		background:#0088a9;
+		background:#FFFFFF;
 		content:'';
 		display:block;
 		height:100%;
@@ -299,7 +299,7 @@ display:block;}
 		position:absolute;
 		top:65px;
 		left:0px;
-		background-color:#24252A;
+		background-color:#0e181a;
 		border-bottom:4px solid #0088a9;
 		width:100%;
 		padding:0px;
