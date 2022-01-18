@@ -76,10 +76,12 @@ nav ul li a{
 	font-size: .8rem;
 	
 }
+.hey:hover{
+	color: #0088a9;
+}
+ 
 nav ul li a:hover{
-
-	box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.671);
-	transition: all ease 0.2s;
+	color: #0088a9;
   
 }
 nav .menu-btn,
