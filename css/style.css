@@ -514,7 +514,7 @@ p{
   .button {
 	margin: 0;
 	position: absolute;
-	top: -1350%;
+	top: -1500%;
 	left: 50%;
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
